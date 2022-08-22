@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 10px 50px;
+}
+.form-group{
+    margin: 10px;
+}
+input{
+    width: 50%;
+    border: solid 1px #eee;
+    padding: 15px 10px;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin-left: 250px;
+    background: #fff;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: all .38s ease-in-out;
+}
+
+button:hover{
+    background: #000;
+    color: #fff;
+}
+
+  /* .register{
+    position: relative;
+    left: 200px;
+  }
+
+  .signup{
+    position: relative;
+    left: 180px;
+  } */
